@@ -33,27 +33,7 @@ conda deactivate
      cd self_evaluation_loop_flow
      ```
 
-2. **Install Dependencies:**
-   - Run the following command to install all necessary dependencies:
-
-     ```bash
-     crewai install
-     ```
-
-3. **Activate the Environment:**
-   - **Mac:**
-
-     ```bash
-     source .venv/bin/activate
-     ```
-
-   - **Windows:**
-
-     ```bash
-     .venv\Scripts\activate
-     ```
-
-4. **Set Python Instance for IDE:**
+2. **Set Python Instance for IDE:**
    - **Mac:**
 
      ```bash
@@ -68,7 +48,7 @@ conda deactivate
 
    - Use the output to set the Python instance in your IDE.
 
-5. **Add Crews to the Flow:**
+3. **Add Crews to the Flow:**
    - Create a crew named `shakespeare_crew` to generate X posts:
 
      ```bash
@@ -80,3 +60,9 @@ conda deactivate
      ```bash
      crewai flow add-crew x_post_review_crew
      ```
+
+4. **Run the Flow:**
+
+   ```bash
+   crewai flow kickoff
+   ```
