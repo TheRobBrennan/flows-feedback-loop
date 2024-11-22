@@ -60,3 +60,9 @@ conda deactivate
      ```bash
      crewai flow add-crew x_post_review_crew
      ```
+
+4. **Run the Flow:**
+
+   ```bash
+   crewai flow kickoff
+   ```
